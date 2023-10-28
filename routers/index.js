@@ -1,7 +1,7 @@
 const { Router } = require("express");
 
 // import Book Router
-const bookRouter = require("./bookRouter");
+const bookRouter = require("./bookApiRouter");
 
 const router = Router();
 
