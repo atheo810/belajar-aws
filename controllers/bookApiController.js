@@ -61,6 +61,7 @@ class BookController {
         id: Number(req.params.id),
       },
     });
+    res.json(result);
   }
 }
 
